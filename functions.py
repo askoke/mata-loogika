@@ -17,7 +17,7 @@ print(get_hello())
 def ask_name_and_greet_user():
     name = input("What's your name? : ")
     name = name.capitalize()
-    if name == "Thanos"
+    if name == "Thanos":
         print("Get out of here, Thanos! Nobody wants to play with you!")
     else:
         print(f"Hi. {name} Would you like to have a Hamburger?")
