@@ -119,8 +119,7 @@ def hundred(num_a: int) -> int:
     :param num_a: given positive integer
     :return int.
     """
-    if num_a =< 100:
+    if num_a <= 100:
         return 100 - num_a
     else:
-        return 100 - num_a
-
+        return num_a % 100
