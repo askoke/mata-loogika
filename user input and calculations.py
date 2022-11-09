@@ -1,5 +1,5 @@
 name = input("Sisestage oma nimi: ")
-name = name.capitalize()
+name = name.capitalize() 
 allowed_speed = input("Sisestage lubatud kiirus (km/h): ")
 actual_speed = input("Sisestage tegelik kiirus (km/h): ")
 
