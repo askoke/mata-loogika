@@ -9,13 +9,9 @@ def sum_between(start: int, end: int) -> int:
     print(sum_between(5, 5)) => 5
     """
     summery = 0
-    if start < end:
         for number in range(start, end + 1):
             summery += number
         return summery
-    elif start == end:
-        return start
-
 
 def sum_of_even_numbers(n: int) -> int:
     """
