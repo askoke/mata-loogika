@@ -102,10 +102,9 @@ def pair_star_recursive(s: str) -> str:
     :param s: input string
     :return: string with stars between identical chars.
     """
-    delim = "*"
     if len(s) < 2:
         return s
     elif s[0] == s[1]:
-        return s[0] + delim + pair_star_recursive(s[1:])
+        return s[0] + "*" + pair_star_recursive(s[1:])
     else:
         return s[0] + pair_star_recursive(s[1:])
