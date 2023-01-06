@@ -163,7 +163,7 @@ class Paint:
 
     def get_squares(self) -> list:
         """Return only squares."""
-        qsuare = []
+        square = []
         for shape in self.__shapes:
             if isinstance(shape, Square):
                 square.append(shape)
