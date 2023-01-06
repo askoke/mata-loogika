@@ -138,7 +138,7 @@ class Paint:
         """Paint constructor."""
         self.__shapes = []
 
-    def add_shape(self, shape: Shape):
+    def add_shape(self, shape: Shape) -> None:
         """Add a shape to the program."""
         self.__shapes.append(shape)
 
