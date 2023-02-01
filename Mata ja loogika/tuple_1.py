@@ -95,8 +95,7 @@ def remove_odd_numbers(numbers: tuple) -> tuple:
     for number in numbers:
         if number % 2 == 0:
             list_tup.append(number)
-    new_tup = tuple(list_tup)
-    return new_tup
+    return tuple(list_tup)
 
 
 def insert_tuple_inside_tuple(outer_tuple: tuple, position: int, inner_tuple: tuple) -> tuple:
